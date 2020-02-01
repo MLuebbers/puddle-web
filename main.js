@@ -25,7 +25,7 @@ $(function() {
                             url: `https://api.github.com/repos/MLuebbers/puddle-web/contents/posts/${element.name}`,
                     
                             success: function(response) {
-                                element = $("<section><div class='pushpin'>📌</div>Hello</section>");
+                                element = $(`<section><div class='pushpin'>📌</div>${response}</section>`);
                                 element.draggable();
                                 element.css("background", colors[Math.floor(Math.random()*4)]);
                                 element.css("top", (Math.random()*50-10) + "vh");
