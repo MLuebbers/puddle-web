@@ -1,0 +1,1 @@
+Ephemerality of the web (which is built into Puddle Web) is often ignored be developers. What are the possibilities in design around a sites that atrophy, conceal themselves, or evaporate entirely.
